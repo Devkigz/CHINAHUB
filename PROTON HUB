@@ -89,3 +89,9 @@ end, true) -- "true" is the default value of toggle
 local DisabledToggle4 = Section4.NewToggle("Disabled Toggle", function(bool)
     -- code here
 end, false) -- "false" is the default value of toggle
+
+--//tab
+local Tab = Window.NewTab("CREDIT")
+
+--//section
+local Section = Tab.NewSection("CREDITS TO @luascripts")
