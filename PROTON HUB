@@ -108,3 +108,9 @@ local Tab = Window.NewTab("CREDIT")
 
 --//section
 local Section = Tab.NewSection("CREDITS TO @luascripts")
+
+--//tab
+local Tab = Window.NewTab("OTHERS OP SCRIPT")
+
+--//section
+local Section = Tab.NewSection("OP HUBS , GUI_S")
