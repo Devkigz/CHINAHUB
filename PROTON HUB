@@ -63,7 +63,20 @@ end)
 
 --//Toggles
 local EnabledToggle3 = Section3.NewToggle("TRY?!?!", function(bool)
-    print("BRO IT COMES IN V8")
+    Rayfield:Notify({
+	Title = "e",
+	Content = "Notification Content",
+	Duration = 6.5,
+	Image = 4483362458,
+	Actions = { -- Notification Buttons
+		Ignore = {
+			Name = "e!",
+			Callback = function()
+				print("e")
+			end
+		},
+	},
+})
 end, true) -- "true" is the default value of toggle
 
 local DisabledToggle3 = Section3.NewToggle("Disabled Toggle", function(bool)
